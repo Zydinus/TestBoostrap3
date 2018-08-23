@@ -1,7 +1,8 @@
 
 <html>
-  
+
   <head>
+     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
     <title>  Test </title>
   </head>
 
@@ -508,7 +509,6 @@
     <!-- External script -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" defer></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" defer></script>
-    <script src="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" defer></script>
 
     <!-- App script -->
     <script>
