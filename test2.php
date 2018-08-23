@@ -1,18 +1,11 @@
 
 <html>
-  <script src="https://code.jquery.com/jquery-3.3.1.js" defer></script>
-  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" defer></script>
-  <script src="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" defer></script>
-  <script>
-    $(document).ready(function () {
-      $('#dtBasicExample').DataTable();
-      $('.dataTables_length').addClass('bs-select');
-    });
-  </script>
-  <head>
-    <title>  Test </title>
-  </head>
-  <body>
+
+    <head>
+        <title>Test</title>
+    </head>
+
+  <body onload=init()>
     <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
       <thead>
         <tr>
@@ -513,3 +506,16 @@
     </table>
   </body>
 </html>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" defer></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" defer></script>
+    <script src="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" defer></script>
+
+    <!-- page script -->
+    <script>
+        function init() {
+            $('#dtBasicExample').DataTable();
+            $('.dataTables_length').addClass('bs-select');
+        }
+
+    </script>
