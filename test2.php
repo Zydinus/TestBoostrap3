@@ -7,6 +7,13 @@
   </head>
 
   <body onload="init()">
+    <?php
+    try {
+      //echo 10/0;
+    } catch (\Exception $e) {
+      echo 'Caught exception: ',  $e->getMessage(), "\n";
+    }
+    ?>
     <br>
     <div class="btn-group btn-group-sm">
 		    <button type="button" class="btn btn-primary">
