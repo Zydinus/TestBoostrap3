@@ -1,12 +1,23 @@
 
 <html>
-
   <head>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
     <title>  Test </title>
   </head>
 
   <body onload="init()">
+    <br>
+    <div class="btn-group btn-group-sm">
+		    <button type="button" class="btn btn-primary">
+          <span class="glyphicon glyphicon-list-alt"></span>
+        </button>
+				<button type="button" class="btn btn-primary">
+          <span class="glyphicon glyphicon-floppy-disk"></span>
+        </button>
+		</div>
+    </br>
+    </br>
     <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
       <thead>
         <tr>
@@ -510,7 +521,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" defer></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" defer></script>
 
+
     <!-- App script -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <script>
       function init() {
         $('#dtBasicExample').DataTable();
